@@ -1,3 +1,4 @@
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
@@ -5,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-        <ImageButton
+        <TextView
             android:layout_marginBottom="4dp"
             android:layout_marginTop="4dp"
             android:padding="6dp"

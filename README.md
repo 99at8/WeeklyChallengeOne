@@ -1,4 +1,4 @@
-# WeeklyChallengeOne
+## WeeklyChallengeOne
 
 
 This project contains bugs and errors. You have to solely fix them up and find the best possible way to make the application run.
@@ -16,3 +16,21 @@ After removing the bugs the application will look like this :
 
 
 <img src = "https://i.imgur.com/DfIu4Aq.png" width=350>
+
+
+## Solved Bugs Project
+
+Some bugs are below :
+
+1.  Inside row_layout there was ImageButton , it should be TextView
+
+2. In MainActivity 
+RecyclerView mRecyclerView; was not initialized .
+
+3. set ContentView(R.layout.activity_main);
+Should be Like below
+setContentView(R.layout.activity_main);
+
+4. RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(thi);
+it should be like below
+RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
