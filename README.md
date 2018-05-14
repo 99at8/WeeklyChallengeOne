@@ -1,3 +1,4 @@
+
 ## WeeklyChallengeOne
 
 
@@ -29,6 +30,7 @@ RecyclerView mRecyclerView; was not initialized .
 set ContentView(R.layout.activity_main);
 Should be Like below
 setContentView(R.layout.activity_main);
+
 4. 
 RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(thi);
 it should be like below
