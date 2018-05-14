@@ -22,7 +22,7 @@ After removing the bugs the application will look like this :
 
 Some bugs are below :
 
-1.  Inside row_layout there was <ImageButton> , it should be <TextView>
+1.  Inside row_layout there was ImageButton , it should be TextView
 2. In MainActivity 
 RecyclerView mRecyclerView; was not initialized .
 3. 
